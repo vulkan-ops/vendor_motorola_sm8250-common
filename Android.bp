@@ -298,6 +298,22 @@ dex_import {
 }
 
 prebuilt_etc_xml {
+	name: "media_codecs_c2",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/media_codecs_c2.xml",
+	filename_from_src: true,
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "media_codecs_performance_c2",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/media_codecs_performance_c2.xml",
+	filename_from_src: true,
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
